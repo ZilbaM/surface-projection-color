@@ -1,6 +1,6 @@
 {
   "name": "surface-projection-color",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Color correction for video projection on colored surface",
   "main": "src/index.js",
   "type": "module",
