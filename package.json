@@ -1,0 +1,41 @@
+{
+  "name": "surface-projection-color",
+  "version": "1.0.0",
+  "description": "Color correction for video projection on colored surface",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "ts",
+      "tsx"
+    ],
+    "transform": {"^.+\\.js$": "babel-jest"}
+  },
+  "files": [
+    "src/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZilbaM/surface-projection-color.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZilbaM/surface-projection-color/issues"
+  },
+  "homepage": "https://github.com/ZilbaM/surface-projection-color#readme",
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "eslint": "^8.54.0",
+    "eslint-plugin-jest": "^27.6.0",
+    "jest": "^29.7.0"
+  }
+}
